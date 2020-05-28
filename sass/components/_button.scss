@@ -1,0 +1,16 @@
+.btn{
+    font-size: 1.2rem;
+
+    background-color: $color-btn;
+    color: #ffffff;
+    padding: 1.5rem 2rem;
+    border: .3rem solid $color-btn;
+
+    cursor: pointer;
+    transition: linear .1s;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: $color-btn;
+}
