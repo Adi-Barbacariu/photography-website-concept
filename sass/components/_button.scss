@@ -1,5 +1,6 @@
-.btn{
+.section__btn--1{
     font-size: 1.2rem;
+    margin-top: 2rem;
 
     background-color: $color-btn;
     color: #ffffff;
@@ -10,7 +11,7 @@
     transition: linear .1s;
 }
 
-.btn:hover{
+.section__btn--1:hover{
     background-color: transparent;
     color: $color-btn;
 }

@@ -7,24 +7,23 @@
     &__left{
         display: flex;
         align-items: center;
+    }
 
-        &--logo{
-            height: 4.5rem;
-            margin: 0 2.5rem;
+    &__logo{
+        height: 4.5rem;
+        margin: 0 2.5rem;
+    }
+
+    &__phone{
+        margin: 0 2.5rem;
+
+        @media only screen and(max-width: 500px){
+            position: absolute;
+            top: 1rem;
+            left: 50%;
+            transform: translate(-50%, 0);
+            margin: 0;
         }
-
-        &--phone{
-            margin: 0 2.5rem;
-
-            @media only screen and(max-width: 500px){
-                position: absolute;
-                top: 1rem;
-                left: 50%;
-                transform: translate(-50%, 0);
-                margin: 0;
-            }
-        }
-
     }
 
     &__right ul{
